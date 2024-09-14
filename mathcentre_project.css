@@ -1,0 +1,426 @@
+/*Homepage CSS*/
+body 
+{
+	background-image:url('mathcentre_bg.png');
+	background-repeat:repeat;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:16px;
+}
+#wrapper
+{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*Navigation bar*/
+nav 
+{ 
+	width:1024px; 
+	border:1px solid black;
+	background-color:#000000;
+	color:#FFFFFF;
+	z-index:1;
+	position:fixed;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+nav ul 
+{ 
+text-align:center;
+list-style-type: none; 
+display:inline;
+padding:20px;
+}
+nav li{display:inline; padding-right:40px; padding-left:40px;}
+nav a:link{text-decoration:none;}
+nav a{color:#FFFFFF; padding:15px;}
+nav a:hover{color:#FC0000;}
+nav ul #drop1 ul 
+{
+			display: none;
+            position: absolute;
+			background-color:#000000;
+			padding: 10px;
+			border-radius: 5px;
+			
+}
+nav ul #drop1:hover ul{
+			display:block;	
+			position: absolute;
+						width:250px;
+						left:480px;
+			background-color:#000000;
+			padding: 10px;
+			border-radius: 5px;			
+}
+nav ul #drop2 ul 
+{
+			display: none;
+            position: absolute;
+			background-color:#000000;
+			padding: 10px;
+			border-radius: 5px;
+			
+}
+nav ul #drop2:hover ul{
+			display:block;
+			position: absolute;
+			width:220px;
+			left:730px;
+			background-color:#000000;
+			padding: 10px;
+			border-radius: 5px;			
+}
+/*Homepage main*/
+#homepage_s1 /*Homepage section 1*/
+{
+	width:1024px;
+	position:absolute;
+	top:0px;
+	margin:0 auto;
+}
+#homepage_s1_box1
+{
+	position:absolute;
+	top:360px;
+	width:1024px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	font-family:broadway;
+}
+#homepage_s1_box1 h1
+{
+	text-align:center;
+	font-size:40px;
+}
+#homepage_s1_box2
+{
+	width:300px;
+	border:2px solid #000000;
+	border-radius: 20px;
+	height:400px;
+	float:left;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+#homepage_s1_box2 ul
+{
+	text-align:left;
+}
+#homepage_s1_box2 h2
+{
+	background-color:#EE6262;
+}
+#homepage_s1_box3
+{
+	width:300px;
+	border:2px solid #000000;
+	border-radius: 20px;
+	height:300px;
+	float:center;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+#homepage_s1_box3 h2
+{
+	background-color:#EE6262;
+}
+#homepage_s1_box3 ul
+{
+	text-align:left;
+}
+#homepage_s1_box4
+{
+	width:300px;
+	border:2px solid #000000;
+	border-radius: 20px;
+	height:300px;
+	float:right;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+#homepage_s1_box4 h2
+{
+	background-color:#EE6262;
+}
+#homepage_s1_box4 ul
+{
+	text-align:left;
+}
+#homepage_s1_box9
+{
+	display:flex;
+	width:1024px;
+	position:absolute;
+	top:470px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	align-items: top;
+	justify-content:space-evenly;
+}
+#homepage_s2 /*Homepage section 2*/
+{
+	position:absolute;
+	width:1024px;
+	top:870px;
+	left:0px;
+	right:0px;
+	margin:auto;
+}
+#homepage_s2 ul
+{
+	list-style-type:none;
+	text-align:center;
+}
+#homepage_s2 ul li
+{
+	display:inline;
+}
+#homepage_s3 /*Homepage section 3*/
+{
+	position:absolute;
+	top:1970px;
+	width:1024px;
+	margin:0 auto;
+}
+#homepage_table
+{
+	padding: 10px; 
+	border-collapse:collapse;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#homepage_table caption
+{
+	font-size:26px;
+	font-weight:bold;
+}
+#homepage_table th,td
+{
+	padding:5px;
+}
+#homepage_table tbody tr:nth-child(even){background-color:#C0C0C0;}
+#homepage_table tbody tr:nth-child(odd){background-color:#EA6565;}
+#holiday1
+{
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	text-align:center;
+	animation-name:move1;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes move1 {
+from {transform:translateY(50%);}
+to {transform:translateY(-150%)}
+}
+#holiday2
+{
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	text-align:center;
+	animation-name:move2;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes move2 {
+from {transform:translateY(-100%);}
+to {transform:translateY(50%)}
+}
+.hpalign
+{
+	display:inline-block;
+	vertical-align:top;	
+}
+.celebration
+{
+	width:80px;
+	height:800px;
+	overflow:hidden;
+}
+#hp_footer /*Homepage footer*/
+{
+	position:absolute;
+	top:2470px;
+}
+/*About page CSS*/
+#ap_box1
+{
+	width:1024px;
+	height:500px;
+	padding:70px 10px 10px 10px;
+}
+#ap_box2
+{
+	width:1024px;
+	height:300px;
+	padding:10px;
+}
+#ap_box2 span {display:none;}
+#gallery
+{
+	width:300px;
+	height:250px;
+}
+#ap_box2 a:hover span 
+{
+display: block;     
+position: absolute; 
+top: 900px;
+left: 650px; 
+text-align: center; 
+z-index:1
+}
+#ap_box3
+{
+	width:1024px;
+	padding:10px;
+	border: 3px ridge #000000;
+	box-shadow:5px 10px #888888;
+}
+#ap_box3 h2
+{
+	text-align:center;
+	width:200px;
+	height:35px;
+	border:3px solid #000000;
+	border-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#ED466D;
+	color:gold;
+}
+/*Service page CSS*/
+#sp_box1
+{
+	padding-top:80px;
+	width:1024px;
+	height:150px;
+	text-align:center;
+}
+#sp_box2
+{
+	width:1024px;
+	height:400px;
+	text-align:center;
+}
+#arrow1
+{
+	transform:rotate(-45deg);
+}
+#arrow2
+{
+	transform:rotate(45deg);
+}
+#sp_table1
+{
+	border-collapse:collapse;
+	position:relative;
+	top:-120px;
+	left:70px;
+	border: 2px solid #000000;
+	border-radius:20px;
+}
+#sp_table2
+{
+	border-collapse:collapse;
+	position:relative;
+	top:-240px;
+	left:750px;
+	border: 2px solid #000000;
+	border-radius:20px;
+}
+#sp_table2 a:link{text-decoration:none;}
+#sp_table2 a{color:#000000;}
+#sp_table2 a:hover{background-color:#F85BF3; font-weight:bold;font-style:italic;}
+#sp_table1 a:link{text-decoration:none;}
+#sp_table1 a{color:#FFFFFF;}
+#sp_table1 a:hover{background-color:#5B9AF8; font-weight:bold;font-style:italic;}
+/*Contact page CSS*/
+#contactpage_content
+{
+	position:absolute;
+	top:420px;
+	width:1000px;
+	padding:15px;
+	margin:0 auto;
+	border:2px solid #000000;
+	background-color:#FFFFFF;
+	z-index:1;
+}
+#contactpage_content table
+{	
+	font-size:14px;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contactpage_content td
+{
+	padding:1px;
+}
+#contactpage_content caption
+{
+	font-weight:bold;
+	font-size:36px;
+	text-align:center;
+}
+#contactpage_content thead
+{
+	font-size:14px;
+	text-align:left;
+}
+#contactpage_content td
+{
+	padding-bottom:10px;
+}
+.section
+{
+	font-size:18px;
+	font-weight:bold;
+}
+.cp_align
+{
+	text-align:right;
+}
+#signhere
+{
+	height:50px;
+	text-align:center;
+	font-family:Brush Script MT;
+	font-size:20px;
+}
+#cp_footer
+{
+	position:absolute;
+	top:1150px;
+}
+/*Sitemap page CSS*/
+#mapbox 
+{
+	padding-top:50px;
+	width:1024px; margin-left:auto; margin-right:auto;
+	text-align:center;
+	padding-bottom:20px;
+}
+/*Resource page CSS*/
+.rp_box
+{
+	width:1024px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.rp_box h3
+{
+	font-style:italic;
+	background-color:#A0280A;
+	color:white;
+	width:300px;
+	text-align:center;
+}
