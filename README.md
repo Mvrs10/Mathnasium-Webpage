@@ -16,33 +16,25 @@ A commercial website consists of at least 7 pages, ultizing sitemap, audio, vide
 
 - <b>Notepad ++</b>
 
-<h2>Program walk-through:</h2>
+<h2>Website features:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Homepage: <br/>
+<img src="https://i.imgur.com/htGIndu.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Online Contact Form:  <br/>
+<img src="https://i.imgur.com/hHd30rm.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Interactable Sitemap: <br/>
+<img src="https://i.imgur.com/e1av1HC.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+About-page with hover effects:  <br/>
+<img src="https://i.imgur.com/o6IwhRI.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Resource-page with embedded YT videos, source audio files:  <br/>
+<img src="https://i.imgur.com/7VONfDG.png" height="80%" width="80%" alt="Mathnasium Center"/>
 </p>
